@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PushButtonRotaryEncoder
+#
+DEF PushButtonRotaryEncoder U 0 40 Y Y 1 F N
+F0 "U" -1700 -1500 60 H V C CNN
+F1 "PushButtonRotaryEncoder" -1700 -200 60 H V C CNN
+F2 "" -1700 -200 60 H I C CNN
+F3 "" -1700 -200 60 H I C CNN
+DRAW
+S -2350 -550 -1000 -1150 0 1 0 N
+X BTN_EN1 1 -2550 -650 200 R 50 50 1 1 I
+X GND 2 -2550 -850 200 R 50 50 1 1 I
+X BTN_EN2 3 -2550 -1050 200 R 50 50 1 1 I
+X GND 4 -800 -1050 200 L 50 50 1 1 I
+X BTN_ENC 5 -800 -650 200 L 50 50 1 1 I
+X 6 6 -1700 -350 200 D 50 50 1 1 I
+X 7 7 -1700 -1350 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
